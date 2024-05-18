@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+button:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.product-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-item button {
+    margin-left: 10px;
+}
+
+.product-item button.edit {
+    background-color: #ffc107;
+    color: #fff;
+    border-color: #ffc107;
+}
+
+.product-item button.delete {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
